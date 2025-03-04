@@ -1,0 +1,6 @@
+[user]
+    name = liweigang
+    email = qurango623@gmail.com
+
+[core]
+    sshCommand = "ssh -i ~/.ssh/Qurango_key"

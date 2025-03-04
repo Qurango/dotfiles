@@ -1,0 +1,17 @@
+[user]
+    name = liweigang
+    email = liweigang.lwg@gmail.com
+
+[core]
+    editor = nvim
+    sshCommand = "ssh -i ~/.ssh/id_rsa"
+
+[init]
+    defaultBranch = main
+
+[includeIf "gitdir:~/Qurango/"]
+    path = .gitconfig-Qurango
+
+# tar.xz
+[tar "tar.xz"]
+    command = xz -c
